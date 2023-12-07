@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx01/APi/fetchApiScreen.dart';
 import 'package:getx01/StateManagement/CounterApp01.dart';
+import 'package:getx01/Todo/TodoScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  CounterApp01(),
+      home:  fetchApiScreen(),
     );
   }
 }
