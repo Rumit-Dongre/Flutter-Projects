@@ -1,0 +1,3 @@
+name: 'name'
+dependencies:
+  some_package: ^2.12.0
